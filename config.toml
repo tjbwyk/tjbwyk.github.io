@@ -1,0 +1,15 @@
+baseurl                 = "tjbwyk.github.io"
+DefaultContentLanguage  = "en"
+title                   = "Yikang Wang"
+theme                   = "hugo-future-imperfect-slim"
+paginate                = 3
+disqusShortname         = ""
+googleAnalytics         = ""
+pluralizeListTitles     = false
+disableLanguages        = []
+
+[markup.goldmark.renderer]
+  unsafe                = true
+
+[outputs]
+  home                  = ["html", "json"]
